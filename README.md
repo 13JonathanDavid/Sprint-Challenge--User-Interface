@@ -47,9 +47,13 @@ Padding inside border outside content.
 Border between margin and padding.
 margin is outside border.
 margin is also collapable that is when touching another box only the distance to the box will be considered (if each element has 50px margin then the width between them will be 50 not 100px)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
 cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
 Git is a decenteralized version control framework. Git is best used on teams where absolute control over the repository is not nessasary and where the secureity of the code is not of upmost !importants.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
