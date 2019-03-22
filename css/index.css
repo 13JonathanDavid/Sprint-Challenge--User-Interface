@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -130,8 +129,11 @@ footer {
     width: 100%;
     background: black;
 }
+header {
+	width:100%;
+}
 
-footer nav {
+footer nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -140,7 +142,57 @@ footer nav {
     font-size: 14px;
 }
 
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+header img {
+	display:inline-block;
+	left: 100;
+}
+/* box colors */
+
+.boxes > .box:nth-of-type(1) {
+  background: teal;
+}
+.boxes > .box:nth-of-type(2) {
+  background: gold;
+}
+.boxes > .box:nth-of-type(3) {
+  background: cadetblue;
+}
+.boxes > .box:nth-of-type(4) {
+  background: coral;
+}
+.boxes > .box:nth-of-type(5) {
+  background: crimson;
+}
+.boxes > .box:nth-of-type(6) {
+  background: forestgreen;
+}
+.boxes > .box:nth-of-type(7) {
+  background: darkorchid;
+}
+.boxes > .box:nth-of-type(8) {
+  background: hotpink;
+}
+.boxes > .box:nth-of-type(9) {
+  background: indigo;
+}
+.boxes > .box:nth-of-type(10) {
+  background: dodgerblue;
 }
