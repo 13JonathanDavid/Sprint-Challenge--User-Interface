@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -130,17 +129,117 @@ footer {
     width: 100%;
     background: black;
 }
+header {
+	width:100%;
+}
 
-footer nav {
+footer nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+	margin-top:30px;
 }
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+header img {
+	display:inline-block;
+	left: 100;
+}
+/* box colors */
+
+.boxes > .box:nth-of-type(1) {
+  background: teal;
+}
+.boxes > .box:nth-of-type(2) {
+  background: gold;
+}
+.boxes > .box:nth-of-type(3) {
+  background: cadetblue;
+}
+.boxes > .box:nth-of-type(4) {
+  background: coral;
+}
+.boxes > .box:nth-of-type(5) {
+  background: crimson;
+}
+.boxes > .box:nth-of-type(6) {
+  background: forestgreen;
+}
+.boxes > .box:nth-of-type(7) {
+  background: darkorchid;
+}
+.boxes > .box:nth-of-type(8) {
+  background: hotpink;
+}
+.boxes > .box:nth-of-type(9) {
+  background: indigo;
+}
+.boxes > .box:nth-of-type(10) {
+  background: dodgerblue;
+}
+
+.overview-guide {
+	display:flex;
+	flex-wrap:wrap;
+	flex-align:center;
+	justify-content:space-between;
+	width:800px;
+	margin:0 auto;
+
+}
+.overview-guide section {
+	max-width: 380px;
+}
+.overview-guide img {
+	max-width:100%;
+}
+.overview-guide p {
+	margin-bottom:30px;
+}
+.overview-guide .learnmore {
+	border:solid thin black;
+	border-radius: 20px;
+	padding:10px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+}
+.overview-guide h2 {
+	margin-top:20px;
+}
+.overview-guide > section {
+border-top:black solid thin;
+padding-top:20px;
+}
+.overview-guide > section:nth-of-type(4),.overview-guide > section:nth-of-type(3) {
+border-bottom:black solid thin;
+padding-bottom:20px;
+margin-bottom:20px;
+}
+article p {
+	padding-bottom:20px;
+}
+article img {
+float:right;
+margin:10px;
 }

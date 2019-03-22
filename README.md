@@ -34,14 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html makes no difference in how the page renders. Instead it tells 3rd parties (bots and people) what you are trying to do with your organization. Thus Article,header, & Footer act like divs but tell those who wish to know more what that container is intended to do.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+A block element takes up a new line by default think <div> while an inline element is "inline" and does not. (think <span>).
 
+inline elements do not have an inheirit width or height availible to direct css manipulation unless you declare them as an inline-block.
 3. What are the 4 areas of the box model?
+Padding, margin, content, and border.
 
+Padding inside border outside content.
+Border between margin and padding.
+margin is outside border.
+margin is also collapable that is when touching another box only the distance to the box will be considered (if each element has 50px margin then the width between them will be 50 not 100px)
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+cross axis.
 5. Explain why git is valuable to a team of developers.
-
+Git is a decenteralized version control framework. Git is best used on teams where absolute control over the repository is not nessasary and where the secureity of the code is not of upmost !importants.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
